@@ -1,10 +1,8 @@
-mod content;
-mod signin;
-mod signup;
+mod components;
 
-use content::Content;
-use signin::SignIn;
-use signup::SignUp;
+use components::content::Content;
+use components::signin::SignIn;
+use components::signup::SignUp;
 
 use yew::prelude::*;
 use yew_router::prelude::*;
